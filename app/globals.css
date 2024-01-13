@@ -60,4 +60,31 @@
 
     html {
       scroll-behavior: smooth;
+      cursor: none;
     }
+
+
+        .custom-cursor {
+          position: fixed;
+          width: 40px;
+          height: 40px;
+          border: 2px solid white;
+          border-radius: 50%;
+          pointer-events: none;
+          mix-blend-mode: difference;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+    
+        .inner-dot {
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          background-color: white;
+          border-radius: 50%;
+          mix-blend-mode: difference;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
