@@ -18,6 +18,7 @@ const Hero = () => {
       </div>
       <div className="flex pt-12 items-center justify-end">
         <Image
+          priority
           className="z-10 animate-[slow-bounce_6s_ease-in-out_infinite]"
           height={1100}
           width={1100}
@@ -25,6 +26,7 @@ const Hero = () => {
           src="/hero.svg"
         />
         <Image
+          priority
           className="absolute"
           height={550}
           width={550}

@@ -100,4 +100,8 @@ html {
   .inner-dot {
       display: block;
     }
+
+  .hidden {
+      display: none;
+    }
 }
