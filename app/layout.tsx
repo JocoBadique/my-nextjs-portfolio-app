@@ -2,12 +2,18 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import CustomCursor from "@/components/cursor";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Joco Badique",
-  description: "My personal portfolio app with space vibe sheeshh!✨",
+  openGraph: {
+    title: "Joco Badique",
+    description: "My personal portfolio app with space vibe sheeshh!✨",
+    images: [
+      {
+        url: "/preview.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -27,7 +33,6 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
-            <CustomCursor />
           </ThemeProvider>
         </body>
       </html>
