@@ -7,6 +7,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Joco Badique",
   description: "My personal portfolio app with space vibe sheeshh!✨",
+  // openGraph: {
+  //   images: {
+  //     url: "/api/og",
+  //   },
+  // },
 };
 
 export default function RootLayout({
