@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Joco Badique",
     description: "My personal portfolio app with space vibe sheeshh!✨",
+    url: "https://nextjs.org",
+    siteName: "Joco Badique",
     images: [
       {
         url: "/preview1.png",
@@ -18,8 +20,11 @@ export const metadata: Metadata = {
         url: "/preview1.png",
         width: 1800,
         height: 1600,
+        alt: "Joco Badique",
       },
     ],
+    locale: "en_US",
+    type: "website",
   },
 };
 
