@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: {
       url: "preview1.png",
+      type: "png",
     },
   },
 };
