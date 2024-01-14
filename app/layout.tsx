@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Joco Badique",
   description: "My personal portfolio app with space vibe sheeshh!✨",
+  metadataBase: new URL("https://my-nextjs-portfolio-app.vercel.app/"),
 };
 
 export default function RootLayout({
