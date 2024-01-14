@@ -60,11 +60,11 @@
 
 html {
   scroll-behavior: smooth;
-  cursor: none;
+  /* cursor: none; */
 }
 
 
-.custom-cursor {
+/* .custom-cursor {
   display: none;
   position: fixed;
   width: 40px;
@@ -104,4 +104,4 @@ html {
   .hidden {
       display: none;
     }
-}
+} */
