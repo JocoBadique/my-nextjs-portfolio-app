@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: "My personal portfolio app with space vibe sheeshh!✨",
     images: [
       {
-        url: "/preview.png",
+        url: "/repository-open-graph-template.png",
         width: 1200,
         height: 630,
       },
