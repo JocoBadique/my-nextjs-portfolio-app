@@ -10,9 +10,14 @@ export const metadata: Metadata = {
     description: "My personal portfolio app with space vibe sheeshh!✨",
     images: [
       {
-        url: "/repository-open-graph-template.png",
-        width: 1200,
-        height: 630,
+        url: "/preview1.png",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "/preview1.png",
+        width: 1800,
+        height: 1600,
       },
     ],
   },
